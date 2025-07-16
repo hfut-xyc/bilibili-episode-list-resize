@@ -5,7 +5,6 @@
 // @description  try to take over the world!
 // @author       You
 // @icon         https://www.bilibili.com/favicon.ico
-// @match        https://space.bilibili.com/*
 // @match        https://www.bilibili.com/video/*
 // @grant        none
 // ==/UserScript==
