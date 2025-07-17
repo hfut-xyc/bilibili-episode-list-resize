@@ -14,18 +14,20 @@
     'use strict';
     // Your code here...
     window.addEventListener('load', function() {
+        const MAX_HEIGHT = '500px';
+
         // 设置视频页面-选集列表的最大高度
         let x = document.querySelector('div.video-pod__body');
         console.log(x);
         if (x !== null) {
-            x.style.maxHeight = '500px';
+            x.style.maxHeight = MAX_HEIGHT;
         }
 
         // 设置番剧页面-选集列表的最大高度
         let y = document.querySelector('div.imageList_wrap___f73Z');
         console.log(y);
         if (y !== null) {
-            y.style.maxHeight = '500px';
+            y.style.maxHeight = MAX_HEIGHT;
         }
     });
 })();
